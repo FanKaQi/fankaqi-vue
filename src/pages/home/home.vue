@@ -2,7 +2,7 @@
   <div class="block">
     <el-carousel height="550px">
       <el-carousel-item v-for="item in banner" :key="item">
-        <el-image :fit="fit" :src="item" style="width: 100%;height: 100%"></el-image>
+        <el-image :src="item" style="width: 100%;height: 100%"></el-image>
       </el-carousel-item>
     </el-carousel>
   </div>
